@@ -49,7 +49,12 @@
         Get message
       </button>
       <p id="message-container"></p>
-      <p>Click <a href="/hello">here</a> to see the server response directly.</p>
+      <form action="/form-handler" method="POST">
+        <p>Enter some text here:</p>
+        <textarea name="text-input">Your email goes here</textarea>
+        <br/>
+        <input type="submit" />
+      </form>
     </div>
   </body>
 </html>

@@ -16,7 +16,8 @@ public class HelloWorldServlet extends HttpServlet {
      *
      */
     private static final long serialVersionUID = 1L;
-    private String [] movieQuotes = {"Get to the choppa ", "Hasta la vista baby ","I will be back ", "You have been terminated."};
+    private String [] movieQuotes = {"Get to the choppa! - Arnold Schwarzenegger ", "Hasta la vista baby. - Arnold Schwarzenegger ","I'll be back. - Arnold Schwarzenegger", "You've been terminated. - Arnold Schwarzenegger"
+,"Dead or alive, you're coming with me. - Peter Weller ", "Get away from her you bitch! - Sigourney Weaver", "That's it, man! Game over, man! Game over! - Bill Paxton "};
 
     @Override
   public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
